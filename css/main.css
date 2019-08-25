@@ -1,0 +1,210 @@
+.navbar-brand{
+    padding: 5% 10%;
+}
+.nav-item{
+    padding: 10px 30px;
+    color: #333333;
+}
+.nav-item a{
+    font-family: 'changa One', cursive;
+    
+}
+.nav-item a:hover{
+    color: #2FA0D5 !important;
+    background:none;
+}
+.active {
+    color: #2FA0D5 !important;
+    background:none;
+}
+.nav-item1{
+    padding: 10px 10px;
+}
+.form-inline {
+    padding: 0% ;
+}
+.search{
+    padding-right: 50px;
+}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 250px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }
+    .textbox{
+    text-align: center ;
+    }
+    #menu ul li a{
+        font-family: 'changa One', cursive;
+        color: #333333;
+    }
+    #menu ul li a:hover{
+        color: #2FA0D5;
+        background:none;
+    }
+    #social a{
+        display: inline-block;
+        cursor: pointer;
+        display: inline;
+        margin-left: 10px;
+    }
+    #social a.twitter{
+        background: url(../images/twitter.png) no-repeat;
+    }
+    #social a.twitter:hover{
+        background: url(../images/twitter_active.png) no-repeat;
+    }
+    #social a.facebook{
+        background: url(../images/facebook.png) no-repeat;
+    }
+    #social a.facebook:hover{
+        background: url(../images/facebook_active.png) no-repeat;
+    }
+    /*banner*/
+    #banner{
+        background: url(../images/bg_slider.gif) center bottom repeat;
+        color:white;
+        padding: 110px 0 40px;
+    }
+    #banner h4{
+        font-size: 60px;
+        line-height: 60px;
+        font-family: 'changa One', cursive;
+        font-weight: 900;
+        letter-spacing: 1px;
+
+    }
+    #btn-menu{
+        display: inline-block;
+        font: 30px 'Changa One', cursive;
+        background-color: #fa97c2;
+        line-height: 36px;
+        padding: 14px 62px;
+        border-radius: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 30px 0;
+        color: white
+
+    }
+    #dot{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        height: 19px;
+        line-height: 19px;
+    }
+    #dot li{
+        width: 19px;
+        height: 19px;
+        border-radius: 19px;
+        display: inline-block;
+        text-align: left;
+        text-indent: 9999px;
+        background: white ;
+        margin: 0 2px;
+        position: relative;
+    }
+    #dot li span{
+        border-radius:9px;
+        width: 9px;
+        height: 9px; 
+        position: absolute;
+        top: 5px;
+        left: 5px;
+       
+    }
+    #dot li.active span,#dot li span:hover{
+        box-shadow: 0;
+        background: #73c926;
+    }
+    #logo{
+        position: relative;
+    }
+    #logo::after{
+        position: absolute;
+        content: "";
+        background: url(../images/logo_bg.png) o o no-repeat;
+        width: 188px;
+        height: 133px;
+        bottom:-140px;
+        left: -2px;
+
+    }
+    /*main*/
+    h4{
+        font-family: 'Changa One'!important ;
+        font-weight: 400;
+        color: #333333;
+        font-size: 26px;
+        margin:10px 0;
+    }
+    .readmore{
+        text-decoration: underline;
+        color: #2FA0D5;
+    }
+    .about{
+        background: #fa97c2;
+        color:#841E64;
+
+    }
+    h3{
+        font-family: 'Changa One'!important ;
+        font-weight: 400;
+        font-size: 40px !important;
+        margin:10px 0;
+    }
+    .about div >img{
+        float: left;
+        margin: 20px;
+    }
+    .navibar ul li {
+        float: left;
+        margin:1px 20px;
+        list-style: none;
+        
+    }
+    .navibar{
+        float: none
+    }
+    .copyright{
+        float: right;
+        margin-right: 40px;
+    }
