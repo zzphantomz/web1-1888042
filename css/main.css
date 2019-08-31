@@ -274,3 +274,21 @@
         text-decoration: none;
     }
     /* about banner*/
+    .round-image{
+        border: none;
+        border-radius: 15px;
+        float: left;
+        margin-right: 15px;
+    }
+    #testimonials .col{
+        background: url(../images/quot.png) top left no-repeat;
+        padding-left: 50px;
+    }
+    #testimonials h3{
+        margin-left: -10px;
+    }
+    .img-rounded{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
