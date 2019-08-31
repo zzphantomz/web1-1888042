@@ -208,3 +208,68 @@
         float: right;
         margin-right: 40px;
     }
+    #frm-signup{
+        border:3px dashed #814e64;
+        padding: 20px 10px;
+        border-radius: 10px;
+        overflow: auto;
+    }
+    #frm-signup h3{
+        font-size: 30px;
+        line-height: 28px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+        color: white;
+    }
+    #frm-signup input{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        height: 38px;
+        padding: 10px;
+        box-shadow: 0 0 0 ;
+        margin-top: 6px 0;
+    }
+    #frm-signup button{
+        float: right;
+        border-radius: 14px;
+        color: white;
+        background: #333333;
+        font:22px 'Changa One', cursive;
+        text-transform: uppercase;
+        line-height: 26px;
+        padding: 10px 34px;
+        border: 0;
+    }
+    .date{
+        text-align: center;
+        background: #73c926;
+        color: white;
+        font: 30px,'Changa One', cursive;
+        line-height: 30px;
+        padding-top:8px 0;
+        border-radius: 14px;
+        margin:10px 0;
+
+    }
+    footer {
+        background: url(../images/bg.gif) 0 center repeat;
+        text-align: center;
+        padding: 20px;
+        margin-top:20px;
+    }
+    footer li {
+        display: inline-block;
+        padding: 0 90px 15px 0;
+    }
+    footer a{
+        color: #7c7c7c;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    footer nav a,
+    footer a:hover{
+        color: white;
+        text-decoration: none;
+    }
